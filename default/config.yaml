@@ -3,6 +3,7 @@
 dataRoot: ./data
 # -- SERVER CONFIGURATION --
 # Listen for incoming connections
+<<<<<<< Updated upstream
 listen: false
 # Enables IPv6 and/or IPv4 protocols. Need to have at least one enabled!
 protocol:
@@ -14,6 +15,9 @@ dnsPreferIPv6: false
 # - Use "auto" to let the server decide
 # - Use options like 'localhost', 'st.example.com'
 autorunHostname: "auto"
+=======
+listen: true
+>>>>>>> Stashed changes
 # Server port
 port: 8000
 # Overrides the port for autorun in browser.
@@ -29,6 +33,7 @@ enableForwardedWhitelist: true
 whitelist:
   - ::1
   - 127.0.0.1
+  - 192.168.*.*
 # Toggle basic authentication for endpoints
 basicAuthMode: false
 # Basic authentication credentials
